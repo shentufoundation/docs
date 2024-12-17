@@ -86,8 +86,6 @@ After you have completed this guide, your validator should be up and ready to re
 - https://www.mintscan.io/shentu
 - https://explorer.shentu.org/
 
-If you have questions, please join the active conversation in the #validators thread of the [**Kava Discord Channel**](https://discord.com/invite/kQzh3Uv).
-
 ## Frequently Commands
 ### Unjail Validator
 ```bash

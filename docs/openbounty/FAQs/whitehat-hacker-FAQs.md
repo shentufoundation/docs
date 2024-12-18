@@ -28,6 +28,6 @@ tags: [FAQ]
 
 ### Question: Who do I reach out to if I have additional answers?
 **Answer:** There are multiple ways to reach our team.
-- Email support@openbounty.io
+- Email support@shentu.org
 - Telegram https://t.me/shentu_chain
 - Discord https://discord.com/invite/6nfAk956NH

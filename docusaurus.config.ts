@@ -121,8 +121,8 @@ const config: Config = {
           title: 'Support',
           items: [
             {
-              label: 'support@openbounty.io',
-              href: 'mailto:support@openbounty.io',
+              label: 'support@shentu.org',
+              href: 'mailto:support@shentu.org',
             },
           ],
         },

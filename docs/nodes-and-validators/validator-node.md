@@ -58,22 +58,29 @@ Keep in mind that the minimum staked amount is 1 CTK this is 1000000uctk
 
 ```bash
 # Replace <key_name> with the key you created previously
-shentud tx staking create-validator \
---amount 1000000uctk \
---pubkey $(shentud tendermint show-validator) \
---moniker="choose moniker" \
---website="optional website for your validator" \
---details="optional details for your validator" \
---commission-max-change-rate 0.01 \
---commission-max-rate 0.2 \
---commission-rate 0.1 \
---min-self-delegation 1 \
---from=<your-key-name> \
---chain-id shentu-2.2 \
---gas-prices 0.025uctk \
---gas-adjustment 1.5 \
---gas auto
+shentud tx staking create-validator validator.json --from cn --chain-id shentu-2.2 --gas-prices 0.025uctk --gas-adjustment 2.0 --gas auto 
 ```
+
+
+`validator.json` Demo
+
+ - You can get `<node public key>` by `./shentud tendermint show-validator` 
+```
+{
+	"pubkey": <node public key>,
+	"amount": "1000000uckt",
+	"moniker": "your validatro name",
+	"identity": "optional identity signature (ex. UPort or Keybase)",
+	"website": "validator's (optional) website",
+	"security": "validator's (optional) security contact email",
+	"details": "validator's (optional) details",
+	"commission-rate": "0.1",
+	"commission-max-rate": "0.2",
+	"commission-max-change-rate": "0.1",
+	"min-self-delegation": "1"
+}
+```
+
 
 To check on the status of your validator:
 

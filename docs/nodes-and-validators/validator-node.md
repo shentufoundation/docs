@@ -60,13 +60,20 @@ Keep in mind that the minimum staked amount is 1 CTK this is 1000000uctk
 
 ```bash
 # Replace <key_name> with the key you created previously
-shentud tx staking create-validator validator.json --from <key_name> --chain-id shentu-2.2 --gas-prices 0.025uctk --gas-adjustment 2.0 --gas auto
+shentud tx \
+staking create-validator \
+validator.json \
+--from <key_name> \
+--chain-id shentu-2.2 \
+--gas-prices 0.025uctk \
+--gas-adjustment 2.0 \
+--gas auto
 ```
 
 
 `validator.json` Demo
 
- - You can get `<node_public_key>` by `./shentud tendermint show-validator`
+ - You can get `<node_public_key>` by `shentud comet show-validator`
 ```
 {
 	"pubkey": <node_public_key>,
@@ -87,10 +94,12 @@ shentud tx staking create-validator validator.json --from <key_name> --chain-id 
 To check on the status of your validator:
 
 ```bash
-shentud status --log_format json | jq '.ValidatorInfo' --gas-prices 0.025uctk --gas-adjustment 2.0 --gas auto
+shentud status --log_format json | jq '.ValidatorInfo'
 ```
 
-After you have completed this guide, your validator should be up and ready to receive delegations. Note that only the top 125 validators by weighted stake (self-delegations + other delegations) are eligible for block rewards. To view the current validator list, checkout one of the Shentu block explorers:
+After you have completed this guide, your validator should be up and ready to receive delegations. 
+Note that only the top 125 validators by weighted stake (self-delegations + other delegations) are eligible for block rewards. 
+To view the current validator list, checkout one of the Shentu block explorers:
 
 - https://www.mintscan.io/shentu
 - https://explorer.shentu.org/

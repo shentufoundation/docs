@@ -58,7 +58,7 @@ Keep in mind that the minimum staked amount is 1 CTK this is 1000000uctk
 
 ```bash
 # Replace <key_name> with the key you created previously
-shentud tx staking create-validator validator.json --from cn --chain-id shentu-2.2 --gas-prices 0.025uctk --gas-adjustment 2.0 --gas auto 
+shentud tx staking create-validator validator.json --from <key_name> --chain-id shentu-2.2 --gas-prices 0.025uctk --gas-adjustment 2.0 --gas auto 
 ```
 
 

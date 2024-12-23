@@ -71,7 +71,7 @@ shentud tx staking create-validator validator.json --from <key_name> --chain-id 
 {
 	"pubkey": <node_public_key>,
 	"amount": "1000000uckt",
-	"moniker": "your validatro name",
+	"moniker": "your validator's name",
 	"identity": "optional identity signature (ex. UPort or Keybase)",
 	"website": "validator's (optional) website",
 	"security": "validator's (optional) security contact email",

@@ -94,10 +94,12 @@ validator.json \
 To check on the status of your validator:
 
 ```bash
-shentud status --log_format json | jq '.ValidatorInfo' --gas-prices 0.025uctk --gas-adjustment 2.0 --gas auto
+shentud status --log_format json | jq '.ValidatorInfo'
 ```
 
-After you have completed this guide, your validator should be up and ready to receive delegations. Note that only the top 125 validators by weighted stake (self-delegations + other delegations) are eligible for block rewards. To view the current validator list, checkout one of the Shentu block explorers:
+After you have completed this guide, your validator should be up and ready to receive delegations. 
+Note that only the top 125 validators by weighted stake (self-delegations + other delegations) are eligible for block rewards. 
+To view the current validator list, checkout one of the Shentu block explorers:
 
 - https://www.mintscan.io/shentu
 - https://explorer.shentu.org/

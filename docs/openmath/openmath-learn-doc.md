@@ -123,6 +123,10 @@ Requirements:
 
 #### 6.2 Funding Theorems
 
+<div align="center">
+  <img src="https://img.shentu.org/om/add-funding.gif" width="720"/>
+</div>
+
 Steps:
 
 - Choose an open theorem

@@ -14,7 +14,7 @@ OpenMath is a decentralized platform where users can collaboratively prove mathe
 #### 2.1 Wallet Connection
 
 <div align="center">
-  <img src="https://img.shentu.org/om/connect-wallet.gif" width="720">
+  <img src="https://img.shentu.org/om/connect-wallet.gif" width="720"/>
 </div>
 
 Steps:
@@ -26,7 +26,7 @@ Steps:
 #### 2.2 Profile Setup 
 
 <div align="center">
-  <img src="https://img.shentu.org/om/profile-edit.gif" width="720">
+  <img src="https://img.shentu.org/om/profile-edit.gif" width="720"/>
 </div>
 
 Click "Profile" at the wallet address dropdown to view your personal statistics and edit your avatar or nickname.
@@ -39,7 +39,7 @@ Click "Profile" at the wallet address dropdown to view your personal statistics 
 #### 3.1 Open Theorems
 
 <div align="center">
-  <img src="https://img.shentu.org/om/open-theorem.gif" width="720">
+  <img src="https://img.shentu.org/om/open-theorem.gif" width="720"/>
 </div>
 
 Click "Open Theorems" to view theorems that have not been proven yet. You can work on them to earn rewards.
@@ -56,7 +56,7 @@ Click "Proven Theorems" to view theorems with proofs. In the future, you can ref
 #### 4.1 Proof Submission
 
 <div align="center">
-  <img src="https://img.shentu.org/om/submit-proof.gif" width="720">
+  <img src="https://img.shentu.org/om/submit-proof.gif" width="720"/>
 </div>
 
 Steps:
@@ -94,7 +94,7 @@ If you have any questions about the verification results, please contact us dire
 #### 5.1 Claiming Rewards
 
 <div align="center">
-  <img src="https://img.shentu.org/om/claim-reward.gif" width="720">
+  <img src="https://img.shentu.org/om/claim-reward.gif" width="720"/>
 </div>
 
 Steps:
@@ -109,7 +109,7 @@ Steps:
 #### 6.1 Create New Theorem
 
 <div align="center">
-  <img src="https://img.shentu.org/om/create-theorem.gif" width="720">
+  <img src="https://img.shentu.org/om/create-theorem.gif" width="720"/>
 </div>
 
 Requirements:

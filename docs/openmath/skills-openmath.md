@@ -6,10 +6,6 @@ description: Install and use OpenMath Skills in AI agents that support skills, i
 
 This guide shows how to install and use OpenMath Skills in AI agents that support skills, so the agent can help with a complete OpenMath workflow: discovering theorems, downloading workspaces, completing local proofs, submitting on-chain, and claiming rewards.
 
-This page is tutorial-first. You can think of OpenMath as an open platform for formal theorem proving, and Skills as executable workflows for an agent. Together, they let an AI agent do more than explain a theorem: it can participate in a verifiable proving pipeline.
-
-**Figures for this guide:** add image files under `static/img/openmath/` in the docs repository. In Markdown, reference them with a site-root path, for example `![Alt text](/img/openmath/your-file.jpg)` (use an extension that matches the real format: JPEG must be `.jpg`/`.jpeg`, not `.png`).
-
 ## Install OpenMath Skills
 
 Install the full skill set with:
@@ -44,7 +40,7 @@ OpenMath automation should not require giving an agent direct control over your 
 
 <div align="center">
 
-![Authz security architecture: main wallet holds assets; authz and feegrant delegate limited actions to the agent address; OpenMath contract verifies proofs and distributes rewards](/img/openmath/authz-security-architecture.jpg)
+![Authz security architecture: main wallet holds assets; authz and feegrant delegate limited actions to the agent address; OpenMath contract verifies proofs and distributes rewards](/img/openmath/authz-security-architecture.png)
 
 </div>
 
@@ -218,7 +214,7 @@ After the first transaction is confirmed, the full proof detail is revealed.
 
 <div align="center">
 
-![Two-phase anti-frontrun submission: Phase 1 broadcasts SHA-256 proof hash and waits for block confirmation; Phase 2 broadcasts full proof; chain verifies hash match then marks passed and makes rewards claimable](/img/openmath/two-phase-submission.jpg)
+![Two-phase anti-frontrun submission: Phase 1 broadcasts SHA-256 proof hash and waits for block confirmation; Phase 2 broadcasts full proof; chain verifies hash match then marks passed and makes rewards claimable](/img/openmath/two-phase-submission.png)
 
 </div>
 

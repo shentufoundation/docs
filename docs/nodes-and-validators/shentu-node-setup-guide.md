@@ -149,3 +149,7 @@ sudo journalctl -f -n 20 -u shentud
 #### Create Validator Node
 
 If you would like to setup a validator, continue the steps outlined in [Run Validator Node](./validator-node)
+
+## Additional Resources
+
+- [Shentu RPC Latency Benchmark](https://openchainbench.com/benchmarks/shentu-rpc) — independent measurements of latency and availability for public Shentu Chain RPC endpoints. Useful for choosing a reliable endpoint before running a node or building an application.
